@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body {
+    background-color: rgba(174, 93, 89, 0.8)
+}
+
+.con {
+    position: absolute;
+    float: left;
+    font-family: Didot LT Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    color: white;
+    margin:auto; 
+    min-width: 20%;
+    width: 100%;
+    z-index: -22;
+    
+}
+
+h2 {
+    position: relative;
+    text-align: center; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6vw;
+    font-size: 6vw;
+}
+
+.mail {
+    width: 94.5%;
+    padding: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    margin: auto; 
+    text-align: center;
+    text-decoration: none;
+    margin-top: 18%;
+    position:absolute;
+    padding-bottom:0;
+    
+}
+
+.link {
+    text-decoration: none;
+    width: 100%;
+    padding: 40px;
+    float: left;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    margin: auto; 
+    text-align: center;
+    position: relative;
+}
+
+.face {
+    margin-top: 22%;
+    position: absolute;
+     width: 94.5%;
+    padding: 40px;
+    padding-bottom: 0;
+}
+
+.tt {
+    margin-top: 29%;
+    position: absolute;
+    width: 94.5%;
+    padding: 40px;
+    padding-bottom: 0;
+}
+
+
+.link:hover {
+    color: #EAE2DD;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block; 
+    padding: 5px;
+    width: 100px;
+    margin: 1% 20px 0 20px;
+    text-align: center;
+    color: white;
+}
+
+.menu{
+    position: absolute;
+    right: 0;
+}
+
+.portfolio {
+    font-family: Didot LT Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px; 
+    position: absolute;
+    color: white;
+    margin-left: 2%;
+    margin-top: 0.6%;
+    padding-bottom: 0pt;
+    border-bottom: 3pt solid white;
+   padding: 5 px;
+    width: 80px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+li,
+.portfolio {
+    font-family: montserrat;
+    font-style: normal;
+    font-weight:normal;
+    font-size: 100%; 
+    user-select: none;
+    margin-bottom: 3pt;
+}
+
+li:hover {
+        margin-bottom: 0px;
+        border-bottom: 3pt solid #9A4F4C;
+        border-left: 2px; 
+        border-right: 2px;
+}
+
+.portfolio:hover {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 770px) {
+
+    .contentor {
+           flex-direction: column;
+    }
+    
+.mail {
+    padding: 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3vw;
+    color: white;
+    text-decoration: none;
+    position:absolute; 
+    text-align: center; 
+    display: block;
+    margin-top: 50%;
+
+
+}
+
+ .face {
+    position: absolute;
+    padding:0;
+    text-align: center; 
+    display: block;
+    margin-top: 55%;
+}
+
+    link {
+        font-size: 3vw;
+    }
+    
+.tt {
+    position: absolute;
+    padding: 0;
+    padding-bottom: 0;
+    text-align: center; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70%;
+}
+  .menu{
+    position: absolute;
+    right: 0;
+      left: 100px;
+}  
+    h2 {
+        margin-top: 30%;
+    }
+}

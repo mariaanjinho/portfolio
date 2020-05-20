@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    
+}
+
+.page {
+    display: block;
+    margin: auto;
+    }
+
+.menu li {
+    list-style: none;
+    display: inline-block; 
+    padding: 5px;
+    width: 100px;
+    margin: 1% 20px 0 20px;
+    text-align: center;
+    color: dimgray;
+}
+
+.menu{
+    position: absolute;
+    right: 0;
+}
+
+.portfolio {
+    font-family: Didot LT Std;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px; 
+    position: absolute;
+    color: dimgray;
+    margin-left: 2%;
+    margin-top: 0.6%;
+    border-bottom: 3pt solid dimgray;
+    margin-top: 0.4%;
+    padding: 5px;
+    width: 80px;
+    text-align: center;
+}
+
+li,
+.portfolio {
+    font-family: montserrat;
+    font-style: normal;
+    font-weight:normal;
+    font-size: 100%; 
+    user-select: none;
+    margin-bottom: 3pt;
+}
+
+li:hover {
+    margin-bottom: 0;
+    border-bottom: 3pt solid rgba(174, 93, 89, 0.81);
+    border-left: 2px; 
+    border-right: 2px;
+}
+
+.portfolio:hover {
+    font-weight: bold;
+}
+
+.row {
+    margin:auto;
+    left: 0;
+    top: 10%;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 0;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10% 0 10%;
+}
+
+
+.titulo {
+    width: 80%;
+    min-width: 50%;
+}
+
+
+.text {
+    font-family: montserrat;
+    font-size: 12px;
+    color: black;
+    user-select: none;
+    position: relative;
+    justify-content: space-around;
+    margin-top: 42%;
+    padding-left: 2%
+}
+
+@media screen and (max-width: 770px) {
+       
+.row {
+    margin:auto;
+    left: 0;
+    top: 10%;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 0;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10% 0 10%;
+    flex-direction: column;
+}
+    
+.titulo {
+    width: 80%;
+    min-width: 40%;
+    margin-top: 10%;
+    }
+       
+.text {
+    font-family: montserrat;
+    font-size: 12px;
+    color: black;
+    user-select: none;
+    margin-top: 0%;
+} 
+.grid-33 {
+    width: 40%;
+}
+
+.img {
+        width: 200%;
+    }
+   .menu{
+    position: absolute;
+    right: 0;
+      left: 100px;
+}    
+}
+    

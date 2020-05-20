@@ -1,0 +1,158 @@
+*{
+    margin:0;
+}
+
+
+body {
+    background-color: white;
+}
+
+div {
+    
+}
+
+h3 {
+position: absolute;
+margin:auto;
+top: 10%;
+right: 0;
+left: 0;
+bottom: 0;
+font-family: Didot LT Std;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+text-align: center;
+color: #BE7D7A;
+}
+
+
+.menu li {
+    list-style: none;
+    display: inline-block; 
+    padding: 5px;
+    width: 100px;
+    margin: 1% 20px 0 20px;
+    text-align: center;
+    color: dimgray;
+}
+
+.menu{
+    position: absolute;
+    right: 0;
+}
+
+.portfolio {
+    font-family: Didot LT Std;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px; 
+    position: absolute;
+    color: dimgray;
+    margin-left: 2%;
+    margin-top: 0.6%;
+    border-bottom: 3pt solid dimgray;
+    margin-top: 0.4%;
+    padding: 5px;
+    width: 80px;
+    text-align: center;
+}
+
+li,
+.portfolio {
+    font-family: montserrat;
+    font-style: normal;
+    font-weight:normal;
+    font-size: 100%; 
+    user-select: none;
+    margin-bottom: 3pt;
+}
+
+li:hover {
+    margin-bottom: 0;
+    border-bottom: 3pt solid rgba(174, 93, 89, 0.81);
+    border-left: 2px; 
+    border-right: 2px;
+}
+
+.portfolio:hover {
+    font-weight: bold;
+}
+
+
+.row {
+    margin:auto;
+    left: 0;
+    top: 30%;
+    right: 0;
+
+    margin-bottom: 0;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10% 0 10%;
+}
+
+.grid-33 {
+    width: 33%;
+}
+
+  .container {
+  position: relative;
+}
+
+
+ .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #BE7D7A;
+}
+
+.container:hover .overlay {
+    opacity: 70%; 
+}
+    
+.text a{
+      text-decoration: none;
+    color: white;
+    font-family: montserrat;
+    font-size: 20pt;
+    opacity: 100%;
+ }
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text a:hover {
+      font-weight: bolder;  
+    }
+@media (max-width: 780px) {
+    .row {
+    flex-direction: column;
+        position: absolute;
+        min-width: 20%;
+}
+    .container {
+        margin:auto;
+        margin-bottom: 2%;
+    }
+    
+    .menu{
+    position: absolute;
+    right: 0;
+    left: 100px
+}
+}
+

@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    background-color: #EAE2DD;
+}
+
+.logo_ {
+    margin: auto;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    height: 70%;
+    max-height: 70%;
+    min-height: 50%; 
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block; 
+    padding: 5px;
+    width: 100px;
+    margin: 1% 20px 0 20px;
+    text-align: center;
+    color: white;
+}
+
+.menu{
+    position: absolute;
+    right: 0;
+}
+
+.portfolio {
+    font-family: Didot LT Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px; 
+    position: absolute;
+    color: white;
+    margin-left: 2%;
+    margin-top: 0.6%;
+    padding-bottom: 0pt;
+    border-bottom: 3pt solid white;
+   padding: 5 px;
+    width: 80px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+li,
+.portfolio {
+    font-family: montserrat;
+    font-style: normal;
+    font-weight:normal;
+    font-size: 100%; 
+    user-select: none;
+    margin-bottom: 3pt;
+}
+
+li:hover {
+    margin-bottom: 0;
+    border-bottom: 3pt solid #9A4F4C;
+    border-left: 2px; 
+    border-right: 2px;
+}
+
+.portfolio:hover {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 770px) {
+    
+    .menu{
+        position: absolute;
+        right: 0;
+        left: 100px;
+}
+  .logo_ {
+    margin: auto;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    height: 7%; 
+}  
+}
